@@ -1,0 +1,18 @@
+@import "../../styles/mixins";
+
+.separator {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 92.3vh;
+  justify-content: space-between;
+}
+
+.recipeCardWrapper {
+  height: 100vh;
+  @include Container;
+  margin: 36px auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}

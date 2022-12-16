@@ -1,0 +1,43 @@
+.closeBtn {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2px 4px;
+  & > .closeIcon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 24px 24px 24px;
+
+  & > .container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    & > .stepContainer {
+      height: 100%;
+      & > .step {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #3593e9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 18px;
+        line-height: 24px;
+      }
+      & > .text {
+        font-size: 16px;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.87);
+      }
+    }
+  }
+}

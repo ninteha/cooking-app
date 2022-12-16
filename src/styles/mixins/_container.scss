@@ -1,0 +1,11 @@
+@mixin Container($width: 100%) {
+  @include isDesktop {
+    max-width: 1248px;
+  }
+
+  @include isMobile {
+    max-width: 100%;
+  }
+
+  height: 100%;
+}

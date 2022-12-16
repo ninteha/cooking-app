@@ -1,0 +1,12 @@
+@import "mixins";
+@import "clear";
+@import "fonts";
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  overflow-x: hidden;
+  height:100vh;
+}
