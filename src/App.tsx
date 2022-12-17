@@ -4,7 +4,7 @@ import { GlobalContext } from "./context/RecipesContext";
 import HomePage from "./views/home";
 
 function App() {
-  const [filterValue, setFilterValue] = useState("");
+  const [filterValue, setFilterValue] = useState([]);
 
   return (
     <GlobalContext.Provider value={{ filterValue, setFilterValue }}>

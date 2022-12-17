@@ -5,6 +5,11 @@ import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
 import styles from "./index.module.scss";
 import closeIcon from "../../../assets/svg/icons/close-btn.svg";
+interface IModal {
+  handleClose?: () => void;
+  open: boolean;
+  recipe?: any;
+}
 
 const style = {
   position: "absolute" as "absolute",
@@ -19,11 +24,6 @@ const style = {
     "drop-shadow(0px 16px 24px rgba(0, 0, 0, 0.14)) drop-shadow(0px 6px 30px rgba(0, 0, 0, 0.12)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.2))",
 };
 
-interface IModal {
-  handleClose?: () => void;
-  open: boolean;
-  recipe?: any;
-}
 const TransitionsModal: React.FC<IModal> = ({ handleClose, open, recipe }) => {
   return (
     <div>

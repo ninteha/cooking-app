@@ -1,17 +1,18 @@
 import { useEffect } from "react";
 import { useGlobalContext } from "../../../context/RecipesContext";
 import styles from "./index.module.scss";
-import RecipeMap from "./recipe-map";
+import FilteredRecipes from "./filtered-recipes";
 
 const Recipe = () => {
   const { filterValue } = useGlobalContext();
   useEffect(() => {
-    RecipeMap;
-  }), [filterValue];
+    FilteredRecipes;
+  }),
+    [filterValue];
 
   return (
     <div className={styles.wrapper}>
-      <RecipeMap />
+      <FilteredRecipes />
     </div>
   );
 };
