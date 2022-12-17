@@ -12,7 +12,7 @@ Access my site at [Netlify](https://cookingdev.netlify.app/)
 - [Status](#status)
 
 ## About The App
-[Cooking App] - Get any recipes and filter it right away!
+Cooking App - Get any recipes and filter it right away!
 
 ## Technologies
 I used `React`, `Typescript`, `Vite`, `SCSS`, `Material UI`, `React Router`.
