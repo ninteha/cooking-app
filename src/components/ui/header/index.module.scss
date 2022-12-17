@@ -3,7 +3,8 @@
 .wrapper {
   display: flex;
   @include Container;
-  height: 102px;
+  min-height: 102px;
+  height: 100%;
   width: 100%;
   margin: 0 auto;
   background: #ffffff;
@@ -11,6 +12,10 @@
     0px 1px 4px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   & > .container {
+    @include isMobile {
+      flex-direction: column;
+      gap: 16px;
+    }
     display: flex;
     justify-content: space-between;
     align-items: center;

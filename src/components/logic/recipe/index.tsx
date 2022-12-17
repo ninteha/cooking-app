@@ -1,18 +1,15 @@
-import { useEffect } from "react";
-import { useGlobalContext } from "../../../context/RecipesContext";
+import RecipeCard from "../../ui/recipe-card";
 import styles from "./index.module.scss";
-import FilteredRecipes from "./filtered-recipes";
+import filterModel from "./indexModel";
 
 const Recipe = () => {
-  const { filterValue } = useGlobalContext();
-  useEffect(() => {
-    FilteredRecipes;
-  }),
-    [filterValue];
+  const { data } = filterModel();
 
   return (
     <div className={styles.wrapper}>
-      <FilteredRecipes />
+      {data.map((recipe: any, i: any) => {
+        return <RecipeCard key={i} recipe={recipe} />;
+      })}
     </div>
   );
 };

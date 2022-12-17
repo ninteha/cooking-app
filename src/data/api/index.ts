@@ -1,9 +1,18 @@
+import Img1 from "../../assets/images/img-1.png";
+import Img2 from "../../assets/images/img-2.png";
+import Img3 from "../../assets/images/img-3.png";
+import Img4 from "../../assets/images/img-4.png";
+import Img5 from "../../assets/images/img-5.png";
+import Img6 from "../../assets/images/img-6.png";
+import Img7 from "../../assets/images/img-7.png";
+import Img8 from "../../assets/images/img-8.png";
+
 export const recipesData = {
   recipes: [
     {
       id: 1134256,
       title: "Roasted Vegetable & Black Bean Tacos",
-      image: "https://spoonacular.com/recipeImages/1134256-312x231.jpg",
+      image: Img1,
       timeToPrepare: "60 minutes",
       ingredients: [
         "1 cup roasted root vegetables (see associated recipe)",
@@ -30,7 +39,7 @@ export const recipesData = {
     {
       id: 24872738,
       title: "Kale & Avocado Salad with Blueberries & Edamame",
-      image: "https://spoonacular.com/recipeImages/1134256-312x231.jpg",
+      image: Img2,
       timeToPrepare: "40 minutes",
       ingredients: [
         "6 Cuns stemmed an coar chopped curly kale",
@@ -54,7 +63,7 @@ export const recipesData = {
     {
       id: 243234421,
       title: "Creamy Spinach Pasta",
-      image: "https://spoonacular.com/recipeImages/1134256-312x231.jpg",
+      image: Img3,
       timeToPrepare: "60 minutes",
       ingredients: [
         "12 ounces uncooked tube-shaped chickpea pasta (about 3 1/2 cups) such as Banza)",
@@ -81,7 +90,7 @@ export const recipesData = {
     {
       id: 53325223,
       title: "Garlic-Anchovy Pasta with Broccolini",
-      image: "https://spoonacular.com/recipeImages/1134256-312x231.jpg",
+      image: Img4,
       timeToPrepare: "45 minutes",
       ingredients: [
         "2 tablespoons extra-virgin olive oil",
@@ -108,7 +117,7 @@ export const recipesData = {
     {
       id: 243324342,
       title: "Salmon & Avocado Poke Bowl",
-      image: "https://spoonacular.com/recipeImages/1134256-312x231.jpg",
+      image: Img5,
       timeToPrepare: "1 hour",
       ingredients: [
         "1 pound previously frozen wild salmon, skinned and cut into 3/4-inch cubes",
@@ -130,7 +139,7 @@ export const recipesData = {
     {
       id: 456756467,
       title: "Crispy Fish Taco Bowls",
-      image: "https://spoonacular.com/recipeImages/1134256-312x231.jpg",
+      image: Img6,
       timeToPrepare: "55 minutes",
       ingredients: [
         "1 pound white fish, such as cod, cut into 2-inch pieces",
@@ -155,7 +164,7 @@ export const recipesData = {
     {
       id: 2644546,
       title: "Quinoa, Avocado & Chickpea Salad Over Mixed Greens",
-      image: "https://spoonacular.com/recipeImages/1134256-312x231.jpg",
+      image: Img7,
       timeToPrepare: "45 minutes",
       ingredients: [
         "¼ teaspoon kosher salt or other coarse salt",
@@ -177,7 +186,7 @@ export const recipesData = {
     {
       id: 35354353,
       title: "One-Pot Lemon-Broccoli Pasta with Parmesan",
-      image: "https://spoonacular.com/recipeImages/1134256-312x231.jpg",
+      image: Img8,
       timeToPrepare: "45 minutes",
       ingredients: [
         "2 tablespoons extra-virgin olive oil",
